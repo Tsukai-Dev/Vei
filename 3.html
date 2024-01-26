@@ -1,0 +1,95 @@
+<!-- ©️2023 Myu Studio
+Witaj! z tej strony twórca tej strony czyli Ayaa :)
+Jeśli jesteś tu bo ja ci powiedziałam to git
+Jeśli jesteś tu bo chcesz ukraść moją prace to jest mi przykro :c
+Nie kradnij mojej pracy 
+wiesz...
+rozwijam tą strone od 2018 roku to trochę nie miłe tak kraść 5 lat pracy
+Poczekaj do 2024 jak strona straci wsparcie udostępnie jej kod <3
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+   <link rel="stylesheet" href="style3.css">
+   <title>VEI :: ANTY RADIO</title>
+ </head>
+ <body onload="startTime()">
+   <style>
+     body {
+       background-color: rgb(26, 26, 26);
+       color: white;
+     }
+     
+     .dark-mode {
+       background-color: rgb(56, 56, 56);
+       color: white;
+     }
+     </style>
+   <!-- Góra strony -->
+   <div class="navbut"><a href="Menu.html"><button style="width: 80px;"><span class="material-symbols-outlined">lists</span></button></a><div class="blank"></div><a href="info.html"><button style="width: 80px;"><span class="material-symbols-outlined">deployed_code_update</span></button></a></div><div class="blank"></div>
+   <center><h1 style="margin-top: -120px;">VEI<h4 style="margin-top: -20px;  margin-bottom: 65px;">#Dare to Stream!</h4></h1></center>
+   <br>
+   <!-- Początek odtwarzacza -->
+   <center><div id="container">
+     <audio id="audio">
+       <source id="sourceMP3" src="" type="audio/ogg">
+     </audio>
+     <!-- Informacje o utworze -->
+     <h4 style="text-align: left; padding-left: 12px;">Vei Advanced Audio System (VAAS)</h4>
+     <div id="wrapper" style="margin-top: -15px;">
+       <div id="trackInfo" style="text-align: left; background-color: red; padding: 15px 15px;">
+         <div id="artistAlbum"></div>
+         <b><div id="titleText"><div class="spinner">
+           <div class="spinner1"></div>
+       </div></div></b>
+         <b><div id="artistText"><div class="spinner">
+           <div class="spinner1"></div>
+       </div></div></b>
+       </div>
+       <!-- Suwak czasu -->
+       <br><br>
+       <!-- Przyciski -->
+       <div id="controls">
+         <div class="button"><a href="index.html"><button style="background-color: #ffffff00; border: none;">1</button></a></div>
+         <div class="blank"></div>
+         <div class="button"><a href="2.html"><button style="background-color: #ffffff00; border: none;">2</button></a></div>
+         <div class="blank"></div>
+         <div class="button" id="playBtn"><img src="icons/32/play-32.png"></div>
+         <div class="blank"></div>
+         <div class="button"><a href="3.html"><button style="background-color: #ffffff00; border: none;">3</button></a></div>
+         <div class="blank"></div>
+         <div class="button"><a href="4.html"><button style="background-color: #ffffff00; border: none;">4</button></a></div>
+       </div>
+       <br>
+       <footer>Beta 1</footer>
+       <hr>
+       <footer>This content is not affiliated with, endorsed, sponsored, or specifically approved by any radio station like RMF, Eska, Anty Radio, and is not responsible for any copyright material.
+         We don't serve any music on our servers.</footer>
+     </div>
+ 
+ 
+     
+       
+ <!-- Łączenie odtwarzacza z Onyx kernel 3 -->
+ <script src = './/switcher.js'></script>
+ 
+ 
+ <script src="scripts/sliderfy.js"></script>
+ <script src="scripts/3.js"></script>
+ <script src="scripts/controls.js"></script>
+   </div>
+   <!-- Koniec odtwarzacza -->
+   <br>
+ 
+   <center><div class="footer">
+     <div id="txt"></div>
+     <footer>Vei©️ 2024</footer>
+   </div></center>
+ </body>
+ </html>
